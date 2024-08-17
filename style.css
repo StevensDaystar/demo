@@ -158,7 +158,7 @@ body{
 .About-us>.details>.Events>.information{
   position: relative;
   left: 6px;
-  top: 4vh;
+  top: 30px;
   width: 90%;
 }
 .About-us>.details>.Events>.information>.Event-slot>img{
@@ -540,6 +540,9 @@ body{
   justify-content: space-between;
   width: 97%;
 }
+.form{
+  width: 90%;
+}
 /* form{
   position: relative;
   width: 50%;
@@ -731,7 +734,7 @@ textarea {
     background-color: black;
     color: #FFE038;
     position: relative;
-    top: 2vh;
+    top: 15px;
     left: 75px;
     border-radius: 12%;
     
@@ -739,7 +742,7 @@ textarea {
   .About-us>.details>.Events>.information{
     position: relative;
     left: 6px;
-    top: 4vh;
+    top: 30px;
   }
   .About-us>.details>.Events>.information>.Event-slot>img{
     position: relative;
@@ -1382,7 +1385,7 @@ textarea {
     background-color: black;
     color: #FFE038;
     position: relative;
-    top: 2vh;
+    top: 15px;
     left: 50px;
     border-radius: 12%;
     
@@ -1390,7 +1393,7 @@ textarea {
   .About-us>.details>.Events>.information{
     position: relative;
     left: 6px;
-    top: 4vh;
+    top: 30px;
   }
   .About-us>.details>.Events>.information>.Event-slot>img{
     height: 80px;
@@ -2001,7 +2004,7 @@ textarea {
     background-color: black;
     color: #FFE038;
     position: relative;
-    top: 2vh;
+    top: 15px;
     left: 8vw;
     border-radius: 12%;
     
@@ -2013,7 +2016,7 @@ textarea {
     left: 45px;
   }
   .About-us>.details>.Events>.information>.Event-slot>img{
-    height: 10vh;
+    height: 100px;
     width: 9vw;
     position: absolute;
     right: 0px;
@@ -2023,7 +2026,7 @@ textarea {
     position: relative;
     left:1vw;
     display: flex;
-    height: 11vh;
+    height: 90px;
   }
   .About-us>details>.Events>.information img{
     height: 1vh;
@@ -2040,14 +2043,14 @@ textarea {
   }
   .About-us>.details>.Events>.information>.divider>.rectangle{
     width: 2vw;
-    height: 1vh;
+    height: 7px;
     background-color: black;
     border-radius: 30%;
   }
   .About-us>.details>.Events>.information>.divider>.rectangle1{
     position: absolute;
     left: 50px;
-    top: -0.3vh;
+    top: -2px;
     
     
   }
@@ -2057,7 +2060,7 @@ textarea {
   .About-us>.details>.Events>.information>.divider>.rectangle2{
     position: absolute;
     left: 9vw;
-    top: -0.4vh;
+    top: -3px;
     
     
   }
@@ -2073,7 +2076,7 @@ textarea {
     font-size: 1.6vw;
     border-radius: 3%;
     width: 60vw;
-    height: 45vh;
+    height: 380px;
     
   }
   .carousel {  
@@ -2558,6 +2561,7 @@ textarea {
   .Top-image-container>.black-container>.yellow-container>.text{
     font-weight: bold;
     
+    
   
   }
   .Top-image-container>.black-container>.text>.yellow{
@@ -2567,7 +2571,7 @@ textarea {
   .Top-image-container>.black-container>.text{
     position: relative;
     font-size: 15px;
-    top: 0.8vh;
+    top: 10px;
     left: 1%;
     
     
@@ -2615,6 +2619,7 @@ textarea {
   .Location{
     display: flex;
   }
+  
   .Location>p{
     position: relative;
     top: -10px;
@@ -2655,14 +2660,14 @@ textarea {
     top: 0;
   }
   .About-us>.details>.Events>.header{
-    width: 13vw;  
-    height: 30px;
+    width: 14vw;  
+    height: 20px;
     background-color: black;
     color: #FFE038;
     position: relative;
     top: 5px;
     left: 25%;
-    height: 3vh;
+    
     border-radius: 12%;
     
   }
@@ -2670,11 +2675,11 @@ textarea {
   .About-us>.details>.Events>.information{
     position: relative;
     left:0.5vw;
-    top: 1vh;
+    top: 7px;
     width: 90%;
   }
   .About-us>.details>.Events>.information>.Event-slot>img{
-    height: 10.4vh;
+    height: 70px;
     width: 9vw;
     position: absolute;
     right: 0px;
@@ -2684,10 +2689,10 @@ textarea {
     position: relative;
     left:1vw;
     display: flex;
-    height: 11vh;
+    height: 80px;
   }
   .About-us>.details>.Events>.information img{
-    height: 2vh;
+    height: 14px;
     width: 2vw;
   }
   .About-us>.details>.Events>.information>.divider{
@@ -2701,14 +2706,14 @@ textarea {
   }
   .About-us>.details>.Events>.information>.divider>.rectangle{
     width: 2vw;
-    height: 1vh;
+    height: 6px;
     background-color: black;
     border-radius: 30%;
   }
   .About-us>.details>.Events>.information>.divider>.rectangle1{
     position: absolute;
     left: 50px;
-    top: -0.3vh;
+    top: -2.5px;
     
     
   }
@@ -2718,7 +2723,7 @@ textarea {
   .About-us>.details>.Events>.information>.divider>.rectangle2{
     position: absolute;
     left: 9vw;
-    top: -0.4vh;
+    top: -2px;
     
     
   }
@@ -2734,7 +2739,7 @@ textarea {
     font-size: 1.1vw;
     border-radius: 3%;
     width: 28vw;
-    height: 45vh;
+    height: 300px;
     
   }
   .carousel {  
@@ -2870,9 +2875,9 @@ textarea {
     width: 21%;
   
   }
-  .Top-image-container>.black-container img{
+  .Top-image-container>.black-container>img{
     position: relative;
-    
+    top: 30px;
     
     width: 30px;
     height: 30px;
@@ -2903,7 +2908,7 @@ textarea {
     
   }
   .Top-image-container>.black-container>.yellow-container>.text{
-    font-size: 15px;
+    font-size: 13px;
     
   
   }
@@ -3227,7 +3232,7 @@ textarea {
   .Top-image-container>.black-container>.text{
     position: relative;
     font-size: 15px;
-    top: 0.8vh;
+    top: 10px;
     left: 1%;
     
     
@@ -3235,7 +3240,7 @@ textarea {
   .Top-image-container>.black-container> img{
     background-color: #FFE038;
     position: relative;
-    top: 3vh;
+    
     
     border-radius: 50%;
   }
@@ -3322,7 +3327,7 @@ textarea {
     position: relative;
     top: 5px;
     left: 25%;
-    height: 3vh;
+   
     border-radius: 12%;
     
   }
@@ -3330,12 +3335,13 @@ textarea {
   .About-us>.details>.Events>.information{
     position: relative;
     left:0.5vw;
-    top: 1vh;
+    top: 6px;
     width: 90%;
   }
   .About-us>.details>.Events>.information>.Event-slot>img{
-    height: 10.4vh;
-    width: 9vw;
+    height: 80px;
+
+    width: 8vw;
     position: absolute;
     right: 0px;
   
@@ -3344,31 +3350,31 @@ textarea {
     position: relative;
     left:1vw;
     display: flex;
-    height: 11vh;
+    height: 100px;
   }
-  .About-us>.details>.Events>.information img{
-    height: 2vh;
-    width: 2vw;
+  .About-us>.details>.Events>.information>img{
+    height: 15px;
+    width: 15px;
   }
   .About-us>.details>.Events>.information>.divider{
     position: relative;
     display: flex;
   }
   .About-us>.details>.Events>.information>.divider>.line{
-    width: 17vw;
+    width: 19vw;
     height: 2px;
     background-color: black;
   }
   .About-us>.details>.Events>.information>.divider>.rectangle{
     width: 2vw;
-    height: 1vh;
+    height: 7px;
     background-color: black;
     border-radius: 30%;
   }
   .About-us>.details>.Events>.information>.divider>.rectangle1{
     position: absolute;
     left: 50px;
-    top: -0.3vh;
+    top: -3px;
     
     
   }
@@ -3378,7 +3384,7 @@ textarea {
   .About-us>.details>.Events>.information>.divider>.rectangle2{
     position: absolute;
     left: 9vw;
-    top: -0.4vh;
+    top: -2.5px;
     
     
   }
@@ -3394,7 +3400,7 @@ textarea {
     font-size: 1.1vw;
     border-radius: 3%;
     width: 28vw;
-    height: 45vh;
+    height: 380px;
     
   }
   .carousel {  
@@ -3531,7 +3537,7 @@ textarea {
   }
   .Top-image-container>.black-container>img{
     position: relative;
-    top: 5vh;
+    top: 50px;
     
     width: 30px;
     height: 30px;
@@ -3550,7 +3556,7 @@ textarea {
   }
   .Top-image-container>.black-container>.yellow-container{
     border-radius: 5%;
-    top: 0.7vh;
+    top: 9px;
     width: 20%;
     height: 110px;
   }  
@@ -3902,7 +3908,7 @@ textarea {
   .Top-image-container>.black-container>.text{
     position: relative;
     font-size: 15px;
-    top: 0.8vh;
+    top: 9px;
     left: 1%;
     
     
@@ -3910,7 +3916,7 @@ textarea {
   .Top-image-container>.black-container> img{
     background-color: #FFE038;
     position: relative;
-    top: 3vh;
+    
     
     border-radius: 50%;
   }
@@ -3997,7 +4003,7 @@ textarea {
     position: relative;
     top: 5px;
     left: 25%;
-    height: 3vh;
+    height: 30px;
     border-radius: 12%;
     
   }
@@ -4006,11 +4012,18 @@ textarea {
     position: relative;
     left:1vw;
     display: flex;
-    height: 11vh;
+    height: 90px;
+  }
+  .About-us>.details>.Events>.information>.Event-slot>img{
+    height: 90px;
+    width: 9vw;
+    position: absolute;
+    right: 0px;
+  
   }
   .About-us>.details>.Events>.information img{
-    height: 2vh;
-    width: 2vw;
+    height: 15px;
+    width: 15px;
   }
   .About-us>.details>.Events>.information>.divider{
     position: relative;
@@ -4023,14 +4036,14 @@ textarea {
   }
   .About-us>.details>.Events>.information>.divider>.rectangle{
     width: 2vw;
-    height: 1vh;
+    height: 7px;
     background-color: black;
     border-radius: 30%;
   }
   .About-us>.details>.Events>.information>.divider>.rectangle1{
     position: absolute;
     left: 50px;
-    top: -0.3vh;
+    top: -04px;
     
     
   }
@@ -4040,7 +4053,7 @@ textarea {
   .About-us>.details>.Events>.information>.divider>.rectangle2{
     position: absolute;
     left: 9vw;
-    top: -0.4vh;
+    top: -2.5px;
     
     
   }
@@ -4053,10 +4066,10 @@ textarea {
     background-color: #FFE038;
     position: relative;
     right: 0px;
-    font-size: 1.1vw;
+    font-size: 1vw;
     border-radius: 3%;
     width: 27vw;
-    height: 45vh;
+    height: 380px;
     
   }
   .carousel {  
@@ -4214,7 +4227,7 @@ textarea {
   }
   .Top-image-container>.black-container>.yellow-container{
     border-radius: 5%;
-    top: 1vh;
+    top: 7px;
     width: 20%;
     height: 150px;
   }  
@@ -4670,13 +4683,13 @@ textarea {
   }
   .About-us>.details>.Events>.header{
     width: 13vw;  
-    height: 30px;
+    height: 4vh;
     background-color: black;
     color: #FFE038;
     position: relative;
     top: 5px;
     left: 25%;
-    height: 3vh;
+    
     border-radius: 12%;
     
   }
@@ -4684,11 +4697,11 @@ textarea {
   .About-us>.details>.Events>.information{
     position: relative;
     left:0.5vw;
-    top: 1vh;
+    top: 0.5vh;
     width: 90%;
   }
   .About-us>.details>.Events>.information>.Event-slot>img{
-    height: 10.4vh;
+    height: 9vh;
     width: 9vw;
     position: absolute;
     right: 0px;
@@ -4745,10 +4758,10 @@ textarea {
     background-color: #FFE038;
     position: relative;
     right: 0px;
-    font-size: 1.1vw;
+    font-size: 1vw;
     border-radius: 3%;
     width: 27vw;
-    height: 45vh;
+    height: 42vh;
     
   }
   .carousel {  
